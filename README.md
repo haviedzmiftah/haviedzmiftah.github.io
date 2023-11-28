@@ -1,1 +1,1 @@
-Hallo guys ini web saya
+hallo teman-teman ini adalah wew landing page saya untuk dokumentasi semua kegiatan yang berkaitan dengan teknologi, bagi kalian yang ingin menyumbangkan ilmunya dipersilakan untuk mendokumentasikannya disini

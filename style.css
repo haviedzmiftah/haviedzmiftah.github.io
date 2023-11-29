@@ -4,7 +4,16 @@
 }
 
 .jumbotron {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
     background-color:whitesmoke;
+  }
+
+  section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  footer{
+    padding-top: 4rem;
   }

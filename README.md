@@ -1,1 +1,8 @@
-hallo teman-teman ini adalah wew landing page saya untuk dokumentasi semua kegiatan yang berkaitan dengan teknologi, bagi kalian yang ingin menyumbangkan ilmunya dipersilakan untuk mendokumentasikannya disini
+# Haviedz Miftah
+![haviedz](img/hafid.jpg)
+
+Lecturer | Content Creator | Mounteneer 
+### Sosial media
+- [Instagram](https://www.instagram.com/haviedzmiftah/) 
+- [Facebook](https://www.youtube.com/@haviedzmiftah)
+- [YouTube](https://www.youtube.com/@haviedzmiftah)

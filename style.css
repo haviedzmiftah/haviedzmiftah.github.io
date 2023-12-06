@@ -23,12 +23,19 @@
     padding-bottom: 5rem;
   }
 
+  .roadmap{
+    padding-top: 0px;
+    padding-bottom: 0.5rem;
+  }
+
   footer{
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
 
   .sosmed{
     background-color:lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   .efek:hover{

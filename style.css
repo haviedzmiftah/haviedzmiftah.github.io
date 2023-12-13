@@ -18,7 +18,7 @@
     filter: grayscale();
   }
 
-  section{
+  #about{
     padding-top: 5rem;
     padding-bottom: 5rem;
   }

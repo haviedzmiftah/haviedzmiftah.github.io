@@ -1,48 +1,49 @@
-*, html {
-    margin: 0;
-    padding: 0;
+*,
+html {
+  margin: 0;
+  padding: 0;
 }
 
 .jumbotron {
-    padding-top: 11rem;
-    padding-bottom: 11rem;
-    background-color:whitesmoke;
-  }
+  padding-top: 11rem;
+  padding-bottom: 11rem;
+  background-color: whitesmoke;
+}
 
-  .img-thumbnail:hover{
-    filter: none;
-    transform: scale(1.01);
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-  .img-thumbnail{
-    filter: grayscale();
-  }
+.img-thumbnail:hover {
+  filter: none;
+  transform: scale(1.01);
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.img-thumbnail {
+  filter: grayscale();
+}
 
-  #about{
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-  }
+#about {
+  padding-top: 5rem;
+  padding-bottom: 1.2rem;
+}
 
-  .roadmap{
-    padding-top: 0px;
-    padding-bottom: 0.5rem;
-  }
+.roadmap {
+  padding-top: 0px;
+  padding-bottom: 0.5rem;
+}
 
-  footer{
-    padding-top: 3rem;
-  }
+footer {
+  padding-top: 3rem;
+}
 
-  .sosmed{
-    background-color:lightgray;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
+.sosmed {
+  background-color: lightgray;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
 
-  .efek:hover{
-    transform: scale(1.5);
-    transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+.efek:hover {
+  transform: scale(1.5);
+  transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-  .fa-spin:hover{
-    animation-timing-function:cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  }
+.fa-spin:hover {
+  animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}

@@ -33,14 +33,12 @@ html {
   padding-bottom: 0.5rem;
 }
 
-footer {
-  padding-top: 3rem;
+.teks p {
+  text-align: justify;
 }
 
-.sosmed {
-  background-color: lightgray;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+footer {
+  padding-top: 2rem;
 }
 
 .efek:hover {
@@ -50,4 +48,19 @@ footer {
 
 .fa-spin:hover {
   animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@media only screen and (min-width: 991px) {
+  .about {
+    display: flex;
+    width: 100%;
+  }
+
+  .roadmap {
+    width: 40%;
+  }
+
+  .teks {
+    width: 60%;
+  }
 }

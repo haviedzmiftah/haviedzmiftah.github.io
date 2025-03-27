@@ -1,8 +1,13 @@
 {
   "folders": [
-	{
-		"path": "."
-	}
-],
-  "settings": {}
+    {
+      "path": "."
+    },
+    {
+      "path": "../Blog/blog"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "blog"
+  }
 }

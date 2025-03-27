@@ -4,22 +4,21 @@ email: haviedzmiftah@gmail.com
 url: https://haviedzmiftah.github.io
 description: ""
 keywords: "haviedz miftah"
-skills: "Web Developer - Video Editor - Desainer"
+skills: "Lecturer - videographer - Desainer - Web Developer"
 meta_author: LastName FirstName
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: E5E4E2
   primary-rgb: 61, 61, 61
-  secondary: 28282b
-  secondary-dark: 242424
+  secondary: 31343f
+  secondary-dark: 18191f
+  condimen: 316fc6
 
 # Footer settings
 footer:
   copyright: Haviedz Miftah
-  # location: Ngawi
   social: Media Sosial
-  # credits: Credits
 
 # Social networks usernames
 social:

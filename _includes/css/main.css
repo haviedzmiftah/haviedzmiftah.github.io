@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color:#000
 }
 
 h1,
@@ -82,7 +82,7 @@ hr.star-primary:after {
 
 header {
     text-align: center;
-    color: #28282b;
+    color: #{{ site.color.secondary }}; 
     background: #{{ site.color.primary }};
 }
 
@@ -156,10 +156,19 @@ header .intro-text .skills {
 
 .navbar a:focus {
     outline: 0;
+    color: #{{site.color.secondary-dark}};
 }
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+}
+
+.navbar-default .navbar-brand {
+  color: #{{site.color.condimen}} !important; /* Judul web */
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #{{site.color.condimen}} !important; /* Nav */
 }
 
 .navbar .navbar-nav li a:focus {
@@ -283,7 +292,7 @@ section.success {
     margin-top: 15px;
     border: solid 2px #fff;
     font-size: 20px;
-    color: #fff;
+    color: #{{site.color.condimen}};
     background: 0 0;
     transition: all .3s ease-in-out;
 }
@@ -292,16 +301,15 @@ section.success {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-    border: solid 2px #fff;
-    color: #{{ site.color.primary }};
-    background: #fff;
+    color: #{{ site.color.condimen }};
+    background: #{{site.color.secondary-dark}};
 }
 
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
     padding-bottom: .5em;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #{{site.color.secondary}};
 }
 
 .floating-label-form-group input,
@@ -337,7 +345,7 @@ section.success {
 
 .floating-label-form-group::not(:first-child) {
     padding-left: 14px;
-    border-left: 1px solid #eee;
+    border-left: 1px solid #{{site.color.secondary-dark}};
 }
 
 .floating-label-form-group-with-value label {
@@ -350,11 +358,11 @@ section.success {
 }
 
 form .row:first-child .floating-label-form-group {
-    border-top: 1px solid #eee;
+    border-top: 1px solid #{{site.color.secondary-dark}};
 }
 
 footer {
-    color: #fff;
+    color: #{{site.color.condimen}};
 }
 
 footer h3 {
@@ -379,7 +387,7 @@ footer .footer-below {
     display: inline-block;
     width: 50px;
     height: 50px;
-    border: 2px solid #fff;
+    border: 2px solid #{{site.color.condimen}};
     border-radius: 100%;
     text-align: center;
     font-size: 20px;
@@ -389,7 +397,7 @@ footer .footer-below {
 .btn:focus,
 .btn:active,
 .btn.active {
-    outline: 0;
+    outline: 0 solid #{{site.color.secondary}};
 }
 
 .scroll-top {
@@ -410,7 +418,7 @@ footer .footer-below {
 }
 
 .scroll-top .btn:focus {
-    outline: 0;
+    outline: 0solid #{{site.color.condimen}};
 }
 
 .portfolio-modal .modal-content {
@@ -473,7 +481,8 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    color: #{{site.color.condimen}};
+    background-color: #{{ site.color.secondary-dark}} !important;
 }
 
 /* Fix modal mouse wheel issues */

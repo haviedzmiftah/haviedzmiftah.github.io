@@ -1,0 +1,7 @@
+subject: Languages
+listing-order: 5
+icon: "/assets/img/globe.svg"
+contents:
+  - title: "Jawa : <span style='color: brown; margin: auto 8px; font-family: cursive;'>●●●●●</span>"
+  - title: "Indonesia : <span style='color: goldenrod; margin: auto 8px; font-family: cursive;'>●●●●○</span>"
+  - title: "English : <span style='color: cornflowerblue; margin: auto 8px; font-family: cursive;'>●◐○○○</span>"

@@ -1,46 +1,31 @@
-# Site settings
-title: Haviedz Miftah
-email: haviedzmiftah@gmail.com
-url: https://haviedzmiftah.github.io
-description: ""
-keywords: "haviedz miftah"
-skills: "Lecturer - videographer - Desainer - Web Developer"
-meta_author: LastName FirstName
+title: Title of your CV site
+profile_img: /assets/img/profile.webp
+icon_img: /assets/img/icon.webp
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: E5E4E2
-  primary-rgb: 61, 61, 61
-  secondary: 31343f
-  secondary-dark: 18191f
-  condimen: 316fc6
+name: "Your Name Here"
+job: "〈Your Job Here〉"
 
-# Footer settings
-footer:
-  copyright: Haviedz Miftah
-  social: Media Sosial
+phone_number: 012-345-6789
+address: City, Country
+email: email@example.com
+linkedin_username: linkedin
+github_username: github
+instagram_username: instagram
+twitter_username: twitter
+facebook_username: facebook
+youtube_username: youtube
+blog_url: homepage-url
 
-# Social networks usernames
-social:
-  - title: twitter
-    url: http://twitter.com/HaviedzMiftah
-  - title: facebook
-    url: http://facebook.com/havied2
-  - title: instagram
-    url: http://instagram.com/haviedzmiftah
-  - title: youtube
-    url: https://www.youtube.com/@haviedzmiftah
-  - title: github
-    url: http://github.com/haviedzmiftah
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
+baseurl:
 
-# Build settings
-markdown: kramdown
-permalink: pretty
+exclude:
+  - _posts/
+  - resources/
+  - vendor/
 
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: "/blog/:title/"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

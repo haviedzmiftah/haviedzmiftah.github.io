@@ -1,0 +1,13 @@
+subject: Projects
+listing-order: 3
+icon: "/assets/img/clipboard-list.svg"
+contents:
+  - title: "Sosial Media Evaluator"
+    description: "Proyek freelance dari appen menganalisa kualitas video konten di aplikasi Snack Video"
+    # image: "![]()"
+  - title: "Web Landing Page - [aneka indoraya almunium](https://github.com/haviedzmiftah/aneka-indoraya-almunium)"
+    description: "Membangun website Aneka Indoraya Almunium perusahaan ini melayani penjualan almunium dan kontraktor bangunan"
+    # image: "![]()"
+  - title: "Aplikasi Pemilihan Umum - [eVoting](https://github.com/haviedzmiftah/eVoting)"
+    description: "Mengembangkan aplikasi web local untuk pemiliahan ketua osis di SMP"
+    # image: "![]()"

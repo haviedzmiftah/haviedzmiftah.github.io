@@ -1,46 +1,31 @@
-# Site settings
-title: Haviedz Miftah
+title: Hafid Miftahurrosyad
+profile_img: /assets/img/profile.png
+icon_img: /assets/img/favicon.png
+
+name: "Haviedz Miftah"
+job: "Teacher - Videographer - Desainer - Web Developer"
+
+# phone_number: dm instagram aja ya
+# address: Ngawi, Jawa Timur
 email: haviedzmiftah@gmail.com
-url: https://haviedzmiftah.github.io
-description: ""
-keywords: "haviedz miftah"
-skills: "Lecturer - videographer - Desainer - Web Developer"
-meta_author: LastName FirstName
+linkedin_username: haviedzmiftah
+github_username: haviedzmiftah
+instagram_username: haviedzmiftah
+twitter_username: haviedzmiftah
+facebook_username: havied2
+youtube_username: haviedzmiftah
+blog_url: https://haviedzmiftah.github.io/blog
 
-# Color settings (hex-codes without the leading hash-tag)
-color:
-  primary: E5E4E2
-  primary-rgb: 61, 61, 61
-  secondary: 31343f
-  secondary-dark: 18191f
-  condimen: 316fc6
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /resume
+baseurl:
 
-# Footer settings
-footer:
-  copyright: Haviedz Miftah
-  social: Media Sosial
+exclude:
+  - _posts/
+  - resources/
+  - vendor/
 
-# Social networks usernames
-social:
-  - title: twitter
-    url: http://twitter.com/HaviedzMiftah
-  - title: facebook
-    url: http://facebook.com/havied2
-  - title: instagram
-    url: http://instagram.com/haviedzmiftah
-  - title: youtube
-    url: https://www.youtube.com/@haviedzmiftah
-  - title: github
-    url: http://github.com/haviedzmiftah
-
-# Build settings
-markdown: kramdown
-permalink: pretty
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: "/blog/:title/"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

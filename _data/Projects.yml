@@ -11,3 +11,5 @@ contents:
   - title: "Aplikasi Pemilihan Umum - [eVoting](https://github.com/haviedzmiftah/eVoting)"
     description: "Mengembangkan aplikasi web local untuk pemiliahan ketua osis di SMP"
     # image: "![]()"
+  - title: "[Jawa Icon](https://github.com/haviedzmiftah/jawa-icons.git)"
+    description: "sebuah icon theme yang bernuansa khas jawa"

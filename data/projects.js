@@ -18,9 +18,10 @@ export const projects = [
     link: "https://github.com/haviedzmiftah/spensavoteV2",
   },
   {
-    title: "Jawa Icon",
-    description: "Sebuah icon theme yang bernuansa khas jawa",
-    link: "https://github.com/haviedzmiftah/jawa-icons.git",
+    title: "Web Landing Page - Centellaglobal",
+    description:
+      "Centella Global adalah penyedia layanan data multibahasa yang mengkhususkan diri dalam penerjemahan, transkripsi, lokalisasi, perekaman suara, voice-over, penulisan naskah, evaluasi media sosial, pembuatan konten, dan manajemen media sosial.",
+    link: "https://github.com/haviedzmiftah/centellaglobal",
   },
 ];
 

@@ -15,7 +15,7 @@ export const projects = [
     title: "Aplikasi Pemilihan Umum - eVoting",
     description:
       "Mengembangkan aplikasi web local untuk pemilihan ketua osis di SMP",
-    link: "https://github.com/haviedzmiftah/eVoting",
+    link: "https://github.com/haviedzmiftah/spensavoteV2",
   },
   {
     title: "Jawa Icon",

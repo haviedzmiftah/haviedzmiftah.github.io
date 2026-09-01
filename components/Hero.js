@@ -8,15 +8,16 @@ export default function Hero() {
     <section className="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:items-center lg:px-8 lg:py-20">
       <div>
         <p className="mb-4 text-sm font-semibold uppercase tracking-[0.2em] text-violet-600 dark:text-violet-400">
-          Teacher • Videographer • Designer • Web Developer
+          Teacher • Fullstack Developer
         </p>
         <h1 className="max-w-xl text-4xl font-black tracking-tight text-slate-900 sm:text-5xl dark:text-slate-100">
           {profile.name}
         </h1>
         <p className="mt-6 max-w-xl text-lg leading-8 text-slate-600 dark:text-slate-300">
-          Saya adalah seorang profesional yang bergerak di bidang pendidikan,
-          media visual, dan pengembangan web, dengan fokus pada komunikasi yang
-          jelas, pengalaman yang rapi, serta solusi digital yang bermanfaat.
+          Informatics Teacher & Aspiring Web Developer. Berpengalaman mengajar
+          sejak 2020 sampai sekarang, kini mendalami pengembangan web modern
+          (JavaScript, React/Next.js) sambil merintis Sabda Academy — bimbel
+          koding untuk anak-anak.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
